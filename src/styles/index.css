@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  height: 100vh;
+}
+
+#root {
+  box-shadow: 0 0 8px #999;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background-color: white;
+}
+
+.title{
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.title-complete{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 12px 26px;
+  text-shadow: 0px 5px 3px rgba(0,0,0,0.16);
+}
+
+.subtitle span {
+  font-weight: bold;
+}
+
+.subtitle{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.todoSearch {
+  width: 85%;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 8px;
+}
+
+.todoSearch:focus{
+  outline-color: #646464;
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 12px 0 12px 0;
+  width: 85%;
+  /* font-weight: bold; */
+}
+
+.list .todoItem {
+  margin: 10px 0;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 32px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.16);
+}
+
+.todo-item-p {
+  font-size: 1.125rem;
+}
+
+.todo-item-p-complete{
+  text-decoration: line-through;
+  /* font-weight: bold; */
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+}
+
+.icon-check-active{
+  color: rgb(13, 187, 13);
+}
+
+.icon-delete:hover{
+  color: red;
+}
+
+.btn {
+  width: 60px;
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  z-index: 1;
+} 
+
+.btn:hover{
+  background-color: rgb(46, 46, 46);
+}
