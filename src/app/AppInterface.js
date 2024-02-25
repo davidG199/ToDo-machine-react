@@ -45,6 +45,7 @@ function AppInterface() {
             completed={todo.completed}
             onComplete={() => completeTodo(todo.text)}
             onDelete={() => deleteTodo(todo.text)}
+            
           />
         ))}
       </TodoList>

@@ -1,24 +1,23 @@
 form {
-    width: 600px;
+    width: 350px;
     height: 350px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    
 }
 
 label{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     color: black;
 }
 
 textarea{
-    width: 80%;
-    height: 120px;
+    width: 75%;
+    height: 100px;
     font-size: 20px;
     border-radius: 10px;
     border: 1px solid grey;

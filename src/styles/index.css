@@ -79,27 +79,33 @@ body {
 
 .list .todoItem {
   margin: 10px 0;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(245, 245, 245);
   border-radius: 12px;
   display: flex;
-  height: 50px;
+  min-height: 50px;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 32px;
+  padding: 4px 18px;
   box-shadow: 0 3px 5px rgba(0,0,0,0.16);
 }
 
+.list .todoItem-completed{
+  background-color: rgb(225, 225, 225);
+}
+
 .todo-item-p {
-  font-size: 1.125rem;
+  font-size: 16px;
 }
 
 .todo-item-p-complete{
   text-decoration: line-through;
+  font-weight: 500;
 }
 
 .icon {
   cursor: pointer;
   font-size: 1.2rem;
+  margin: 0 10px;
 }
 
 .icon-check-active{
