@@ -15,12 +15,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(60, 54, 51);
   height: 100vh;
 }
 
 #root {
-  box-shadow: 0 0 8px #999;
   padding: 1rem;
   margin: 10px 0;
   border-radius: 12px;
@@ -28,7 +27,8 @@ body {
   align-items: center;
   flex-direction: column;
   width: 350px;
-  background-color: white;
+  background-color: rgb(116, 114, 100);
+  color: rgb(238, 237, 235);
 }
 
 .title{
@@ -47,6 +47,7 @@ body {
 
 .subtitle span {
   font-weight: bold;
+  color: rgb(224, 204, 190);
 }
 
 .subtitle{
@@ -55,12 +56,13 @@ body {
 }
 
 .todoSearch {
-  width: 85%;
+  width: 65%;
   padding: 12px;
   border-radius: 12px;
   border: 1px solid black;
   text-align: center;
   margin: 0 8px;
+  height: 35px;
 }
 
 .todoSearch:focus{
@@ -79,14 +81,15 @@ body {
 
 .list .todoItem {
   margin: 10px 0;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(238, 237, 235);
   border-radius: 12px;
   display: flex;
   min-height: 50px;
+  color: black;
   align-items: center;
   justify-content: space-between;
   padding: 4px 18px;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.16);
+  box-shadow: 0 5px 5px 4px rgba(0,0,0,0.16);
 }
 
 .list .todoItem-completed{
@@ -120,7 +123,7 @@ body {
   width: 60px;
   height: 35px;
   margin-bottom: 10px;
-  background-color: black;
+  background-color: rgb(60, 54, 51);
   color: white;
   font-size: 1.5rem;
   border: none;
@@ -129,11 +132,20 @@ body {
 } 
 
 .btn:hover{
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(70, 64, 61);
+}
+
+.emptyTodos{
+  text-align: center;
+  font-size: 1.39rem;
+  margin: 10px 0;
 }
 
 @media (min-width:768px) {
   #root {
     width: 550px;
+  }
+  .todoSearch{
+    width: 80%;
   }
 }

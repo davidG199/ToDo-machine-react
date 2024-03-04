@@ -1,5 +1,3 @@
-import { useContext } from "react";
-import { TodoContext } from "./TodoContext";
 
 function CreateTodoButton({setOpenModal}) {
   return (

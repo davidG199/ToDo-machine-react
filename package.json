@@ -35,5 +35,10 @@
   "homepage": "htts://davidg199.github.io/ToDo-machine-react",
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "description": "Aplicacion de prueba hecha a base del curso de React de platzi",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
